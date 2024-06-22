@@ -1,0 +1,281 @@
+/*Titulo*/
+.ti{
+    position: relative;
+    background: linear-gradient(to right, #FFC107, #FF9800);
+    color: #FF0000;
+    font-family: sans-serif;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+/*Descripcion*/
+strong {
+    color: black;
+}
+
+.des p {
+    text-align: justify;
+    color: gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*Carrusel */
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+/*MODAL*/
+.boto {
+        position: relative;
+        top: 50px;
+        width: 60%; 
+        max-width: 800px; 
+        margin: auto; 
+        padding: 60px; 
+        margin-bottom: 90px;
+        background-color: #ffffff; 
+        border-radius: 10px; 
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+}
+
+@keyframes buttonAnimation {
+    0% {
+        transform: scale(1);
+        background-color: #FFC107;
+    }
+
+    50% {
+        transform: scale(1.1);
+        background-color: #FFC107;
+    }
+
+    100% {
+        transform: scale(1);
+        background-color: #FFC107;
+    }
+}
+
+.boto1 {
+    position: relative; 
+    right: 14px; 
+    font-weight: 600;
+    color: black; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    cursor: pointer; 
+    border-radius: 5px; 
+    box-shadow: 0px 0px 2px red;
+    animation: buttonAnimation 1s infinite;
+}
+
+.x {
+    cursor: pointer;
+}
+
+.h2 {
+    position: relative;
+    left: 38%;
+    color: #EF0107;
+}
+
+.back {
+    background-image: url(../../Img/back.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.mcon {
+    background-image: linear-gradient(62deg, #fbe97e 0%, #f79768 100%);    
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px aquamarine;
+}
+
+.ped {
+    cursor: pointer;
+    position: relative;
+    left: 68%;
+    color: white;
+    background-color: #EF0107;
+    box-shadow: 0px 0px 20px #9b59b6;
+}
+
+/*DOMICILIOS */
+form input:hover {
+    background-color: #7dd3fc;
+}
+    input {
+        outline: none;
+    }
+
+#datos {
+    width: 100px;
+}
+    #datos input {
+        border: 1px solid gray;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px pink;
+    }
+        #datos input::placeholder {
+            font-size: 15px;
+            padding-left: 5px;
+        }
+
+#pedido .lab {
+    width: 500px;
+
+}
+    #pedido .cua {
+        width: 120px;
+        height: 30px;
+    }
+        #pedido input {
+            border: 1px solid gray;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px pink;
+        }
+
+#pedido h5 {
+    color: #EF0107;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.chek {
+    margin-left: 20px;
+}
+    .chek2 {
+        margin-left: 25px;
+    }
+        .chek3 {
+            margin-left: 6px;
+        }
+
+
+/*TABLA*/
+table{
+    background: linear-gradient(to bottom, #3498db, #2ecc71, #e74c3c);
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px black;
+    
+}
+    th {
+        background-color: #9b59b6;
+        color: black;
+        text-align: center;
+        text-transform: uppercase;
+
+    }
+
+td {
+    color: white;
+    text-align: center;
+    width: 400px;
+    height: 35px;
+    border-bottom: 1px solid #ddd;
+}
+    tr {
+        height: 35px;
+        border-bottom: 1px solid #ddd;
+    }
+
+.n {
+    width: 30px;
+}
+
+video {
+    box-shadow: 0 0 10px red;
+    border-radius: 10px;
+}
+/*EXPERIENCIA USUARIO*/
+
+.ser {
+    color: #b40303;
+}
+
+.for2{
+    max-width: 400px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.for2 label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.for2 select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.for2 button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.for2 button:hover {
+    transform: scale(1.1);
+    background-color: #218838;
+}
+/*CONTACTOS*/
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#cont {
+    padding-bottom: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-media a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+    filter: invert(100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
